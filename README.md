@@ -4,7 +4,7 @@ Auto-refreshing global component state for preact
 
 See a demo [here](http://konsumer.js.org/preact-globals/).
 
-This uses context to give you a top-level state that can be refreshed. Install in your project with `npm i preact-global`. This makes it a sort of redux-replacement that is very small. See `example/` for an example of usage.
+This uses context to give you a top-level state that can be refreshed. Install in your project with `npm i preact-global`. This makes it a sort of no-dependency, very small, very light redux-replacement. See `example/` for an example of usage.
 
 Basic idea is this:
 
