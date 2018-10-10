@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "preact build",
+    "build": "preact build --production --clean",
     "start": "preact watch"
   },
   "keywords": [],
@@ -14,5 +14,6 @@
   },
   "dependencies": {
     "preact-global": "file://../"
-  }
+  },
+  "homepage": "http://konsumer.js.org/preact-globals/"
 }
