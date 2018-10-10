@@ -4,7 +4,8 @@
   "description": "Auto-refreshing global component state for preact",
   "scripts": {
     "build": "babel src/index.js > index.js",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "deploy": "cd example && npm run build && gh-pages -d build"
   },
   "keywords": [
     "preact",
