@@ -4,7 +4,7 @@ Auto-refreshing global component state for preact
 
 See a demo [here](http://konsumer.js.org/preact-global/).
 
-This uses context to give you a top-level state that can be refreshed. Install in your project with `npm i preact-global`. This makes it a sort of no-dependency, very small, very light, and very easy redux-replacement. See `example/` for an example of usage.
+This uses context to give you a top-level state that can be refreshed. Install in your project with `npm i preact-global`. This makes it a sort of no-dependency, very small, very light, and very easy redux-replacement. See [example/](https://github.com/konsumer/preact-global/tree/master/example) for an example of usage.
 
 Basic idea is this:
 
@@ -28,4 +28,4 @@ const App = () => (
 
 ```
 
-Anywhere inside `GlobalProvider` top-level provider you can get to the context, even many components deep.
+Anywhere inside `GlobalProvider` you can get to the context, even many components deep. You can add any props you like to `GlobalProvider`, and they will get inserted into the context.
